@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.SI_KRS">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".EditDosen"></activity>
+        <activity android:name=".DataDiriAdmin" />
+        <activity android:name=".RecViewKelas" />
+        <activity android:name=".DataDiriDosen"></activity> <!-- <activity android:name=".DataDiriMhs" /> -->
+        <activity android:name=".RecViewMahasiswa" />
+        <activity android:name=".CreateMahasiswaActivity" />
+        <activity android:name=".RecViewMatkul" />
+        <activity android:name=".CreateMatkulActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RecViewKrs" />
+        <activity android:name=".CreateKrs" />
+        <activity android:name=".Adapter.krsAdapter" />
+        <activity android:name=".RecViewDosen">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!--  -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name=".CreateDosenActivity">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+<!---->
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity> <!-- <activity android:name=".DataDiriAdm" /> -->
+        <activity android:name=".menuDosen" />
+        <activity android:name=".menuAdmin" />
+        <activity android:name=".MainActivity" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
